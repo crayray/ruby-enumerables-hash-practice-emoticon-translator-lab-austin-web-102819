@@ -11,6 +11,7 @@ def load_library(filepath)
   emoticons.each do |get_meaning, get_emoticon|
     puts emoticons
 end
+end
 
 def get_japanese_emoticon
   # code goes here
