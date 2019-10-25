@@ -8,7 +8,7 @@ require "yaml"
 def load_library(filepath)
   # code goes here
   emoticons = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
-  emoticons.each do |get_meaning, get_emoticon| 
+  emoticons.each do |get_meaning, get_emoticon|
     puts emoticons
 end
 
