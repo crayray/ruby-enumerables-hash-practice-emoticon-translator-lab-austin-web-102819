@@ -10,7 +10,7 @@ def load_library(filepath)
   emoticons = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
   emoticons.each do |get_meaning, get_emoticon|
     [get_meaning] = {}
-    get_emoticon = {}
+    [get_emoticon] = {}
 end
 end
 
