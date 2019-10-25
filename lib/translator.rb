@@ -1,6 +1,6 @@
 # require modules here
 require "yaml"
-require pry
+require "pry"
 # emoticons = YAML.load_file('emoticons.yml')
 # emoticons = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
 
@@ -10,7 +10,7 @@ def load_library(filepath)
   # code goes here
   emoticons = YAML::load_file(File.join(__dir__, 'emoticons.yml'))
   emoticons.each do |get_meaning, get_emoticon|
-    
+
 end
 end
 
